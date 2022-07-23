@@ -1,0 +1,1 @@
+web: sh setup.sh &&streamlit run detectobject.py &&streamlit run app2.py

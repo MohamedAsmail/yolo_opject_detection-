@@ -1,6 +1,5 @@
 numpy
 os
-cv2
 opencv-python-headless
 Pillow
 streamlit

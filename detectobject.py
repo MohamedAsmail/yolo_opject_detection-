@@ -4,7 +4,7 @@ import os
 def detect_object(frame):
 # read the model
     cfg_path=os.path.abspath('yolo/yolov4.cfg')
-    weights_path=os.path.abspath('yolo/yolov4.weights')
+    weights_path=os.path.abspath('yolov4.weights')
     names_path=os.path.abspath('yolo/coco.names')
 
     net=cv2.dnn_DetectionModel(cfg_path,weights_path)

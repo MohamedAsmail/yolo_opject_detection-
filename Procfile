@@ -1,1 +1,1 @@
-web: sh setup.sh &&streamlit run detectobject.py &&streamlit run app2.py
+web: sh setup.sh &&streamlit run  app2.py&&streamlit run  detectobject.py
